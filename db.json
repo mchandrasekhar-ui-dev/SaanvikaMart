@@ -1,0 +1,67 @@
+{
+  "users": [],
+  "products": [
+    {
+         "id": "1",
+      "title": "Premium Wireless Headphones",
+      "description": "High quality wireless headphones",
+      "price": 2499,
+      "category": "electronics",
+      "brand": "SoundMax",
+      "thumbnail": "https://example.com/headphones.jpg",
+      "rating": 4.5,
+      "stock": 25,
+      "discountPercentage": 15
+    }
+  ],
+  "categories": [
+    
+         {
+    "id": "1",
+    "name": "Electronics",
+    "slug": "electronics",
+    "image": "assets/images/electronics.jpg",
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "name": "Fashion",
+    "slug": "fashion",
+    "image": "assets/images/fashion.jpg",
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "name": "Beauty",
+    "slug": "beauty",
+    "image": "assets/images/beauty.jpg",
+    "isActive": true
+  },
+  {
+    "id": "4",
+    "name": "Home & Living",
+    "slug": "home-living",
+    "image": "assets/images/home.jpg",
+    "isActive": true
+  },
+  {
+    "id": "5",
+    "name": "Footwear",
+    "slug": "footwear",
+    "image": "assets/images/footwear.jpg",
+    "isActive": true
+  },
+  {
+    "id": "6",
+    "name": "Accessories",
+    "slug": "accessories",
+    "image": "assets/images/accessories.jpg",
+    "isActive": true
+  }
+    
+  ],
+  "adminApplications": [],
+  "orders": [],
+  "carts": [],
+  "wishlists": []
+}

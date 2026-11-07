@@ -1,0 +1,73 @@
+<mat-toolbar class="navbar">
+
+      <!-- logo -->
+
+      <div  class="logo">
+
+        SAANVIKA'S MART<span>.</span>
+        <small>Shop beautifully, Live Happily</small>
+
+      </div>
+
+     <span class="spacer"></span>
+
+     <!-- navigation -->
+
+     <button mat-button routerLink="/">Home</button>
+     <button mat-button routerLink="/products">shop</button>
+     <button  mat-button >categories</button>
+     <button mat-button>Offers</button>
+
+     <span class="spacer"></span>
+
+     <!-- search -->
+<div class="search-container">
+
+  <mat-icon class="search-icon">search</mat-icon>
+
+  <input
+    matInput
+    type="search"
+    placeholder="Search for products, brands..."
+    aria-label="Search products"
+  />
+
+  <button
+    mat-icon-button
+    type="button"
+    class="search-btn"
+    aria-label="Submit search"
+  >
+    <mat-icon>arrow_forward</mat-icon>
+  </button>
+
+</div>
+     <!-- <mat-form-field appearence="outline" class="class-field">
+        <mat-label>Search products</mat-label>
+        <input matInput type="text"/>
+        <mat-icon matSuffix>search</mat-icon>
+
+
+     </mat-form-field> -->
+
+     <!-- Actions -->
+
+     <button mat-icon-button routerLink="/login" aria-label="Account">
+        <mat-icon>person</mat-icon>
+     </button>
+
+     <button mat-icon-button routerLink="/wishlist" aria-label="wishlist">
+
+        <mat-icon>favorite_border</mat-icon>
+
+     </button>
+
+
+     <button mat-icon-button routerLink="/cart" aria-label="cart">
+
+        <mat-icon>shoppin_cart</mat-icon>
+
+     </button>
+
+
+</mat-toolbar>
