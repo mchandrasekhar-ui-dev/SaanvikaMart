@@ -12,7 +12,79 @@
       "rating": 4.5,
       "stock": 25,
       "discountPercentage": 15
-    }
+    },
+    {
+  "id": "2",
+  "title": "Premium Smart Watch",
+  "description": "Stylish smartwatch with fitness tracking",
+  "price": 3999,
+  "category": "electronics",
+  "brand": "TechPro",
+  "thumbnail": "assets/images/products/smartwatch.jpg",
+  "rating": 4.6,
+  "stock": 30,
+  "discountPercentage": 20
+},
+{
+  "id": "3",
+  "title": "Women's Designer Dress",
+  "description": "Elegant premium casual dress",
+  "price": 1999,
+  "category": "fashion",
+  "brand": "StyleHub",
+  "thumbnail": "assets/images/products/dress.jpg",
+  "rating": 4.4,
+  "stock": 20,
+  "discountPercentage": 15
+},
+{
+  "id": "4",
+  "title": "Luxury Skincare Kit",
+  "description": "Complete skincare essentials kit",
+  "price": 1499,
+  "category": "beauty",
+  "brand": "GlowCare",
+  "thumbnail": "assets/images/products/skincare.jpg",
+  "rating": 4.7,
+  "stock": 35,
+  "discountPercentage": 10
+},
+{
+  "id": "5",
+  "title": "Modern Table Lamp",
+  "description": "Elegant decorative table lamp",
+  "price": 1299,
+  "category": "home-living",
+  "brand": "HomeStyle",
+  "thumbnail": "assets/images/products/lamp.jpg",
+  "rating": 4.3,
+  "stock": 15,
+  "discountPercentage": 12
+},
+{
+  "id": "6",
+  "title": "Classic Running Sneakers",
+  "description": "Comfortable lightweight running shoes",
+  "price": 2499,
+  "category": "footwear",
+  "brand": "WalkPro",
+  "thumbnail": "assets/images/products/sneakers.jpg",
+  "rating": 4.5,
+  "stock": 40,
+  "discountPercentage": 18
+},
+{
+  "id": "7",
+  "title": "Premium Leather Handbag",
+  "description": "Elegant everyday leather handbag",
+  "price": 2999,
+  "category": "accessories",
+  "brand": "LuxeCarry",
+  "thumbnail": "assets/images/products/handbag.jpg",
+  "rating": 4.6,
+  "stock": 18,
+  "discountPercentage": 15
+}
   ],
   "categories": [
     
@@ -20,42 +92,42 @@
     "id": "1",
     "name": "Electronics",
     "slug": "electronics",
-    "image": "assets/images/electronics.jpg",
+    "image": "assets/electronics.jpg",
     "isActive": true
   },
   {
     "id": "2",
     "name": "Fashion",
     "slug": "fashion",
-    "image": "assets/images/fashion.jpg",
+    "image": "assets/fashion.jpg",
     "isActive": true
   },
   {
     "id": "3",
     "name": "Beauty",
     "slug": "beauty",
-    "image": "assets/images/beauty.jpg",
+    "image": "assets/beauty.jpg",
     "isActive": true
   },
   {
     "id": "4",
     "name": "Home & Living",
     "slug": "home-living",
-    "image": "assets/images/home.jpg",
+    "image": "assets/home.jpg",
     "isActive": true
   },
   {
     "id": "5",
     "name": "Footwear",
     "slug": "footwear",
-    "image": "assets/images/footwear.jpg",
+    "image": "assets/footwear.jpg",
     "isActive": true
   },
   {
     "id": "6",
     "name": "Accessories",
     "slug": "accessories",
-    "image": "assets/images/accessories.jpg",
+    "image": "assets/accessories.jpg",
     "isActive": true
   }
     

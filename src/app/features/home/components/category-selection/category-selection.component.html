@@ -1,1 +1,52 @@
-<p>category-selection works!</p>
+<section class="category-section">
+
+  <!-- Section Heading -->
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">EXPLORE OUR COLLECTION</span>
+
+      <h2>
+        Shop By <span>Categories</span>
+      </h2>
+
+      <p>Everything you love, thoughtfully selected for you.</p>
+    </div>
+
+    <button mat-button class="view-all-btn">
+      View All →
+    </button>
+  </div>
+
+  <!-- Category Cards -->
+  <div class="category-grid">
+
+    @for (category of categories; track category.id) {
+
+      <mat-card class="category-card">
+
+        <div class="category-image">
+
+          <img
+            [src]="category.image"
+            [alt]="category.name"
+          />
+
+        </div>
+
+        <mat-card-content class="category-content">
+
+          <h3>{{ category.name }}</h3>
+
+          <span class="category-link">
+            Explore Collection →
+          </span>
+
+        </mat-card-content>
+
+      </mat-card>
+
+    }
+
+  </div>
+
+</section>
